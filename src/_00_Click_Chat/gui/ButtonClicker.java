@@ -1,4 +1,4 @@
- package _00_Click_Chat.gui;
+package _00_Click_Chat.gui;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
