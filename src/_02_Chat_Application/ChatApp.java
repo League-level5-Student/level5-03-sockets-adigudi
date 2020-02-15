@@ -56,7 +56,7 @@ public class ChatApp extends JFrame{
 		else
 		{
 			setTitle("CLIENT");
-			String IP = JOptionPane.showInputDialog("Enter the IP Adress of the server");
+			String IP = JOptionPane.showInputDialog("Enter the IP Address of the server");
 			int port = Integer.parseInt(JOptionPane.showInputDialog("Enter the server's port"));
 			client = new Client(IP, port);
 			button.addActionListener(e -> client.sendClick(text.getText()));
